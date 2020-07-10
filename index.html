@@ -2,27 +2,50 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=devvice-width, initial-scale=1.0" />
     <title>My Website</title>
 </head>
 
 <body>
-    <div class="container">
-        <p class="image">
-            <h1><strong>Introduction</strong></h1><br>
-            <h1><em>Hi </em>I'm Richard and I'm from New York.</h1>
-            <div class="image">
-                <img src="CPNYC.jpeg">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+    </ul>
+    <div class="container-lg">
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome! This is my website.</h1>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="CPNYC.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">About Me</h2>
+              <p class="card-text"><em>Hi! </em>I'm Richard and I'm from New York.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-        </p>
+        </div>
         <hr />
-        <p class="image">
-            <h1>One thing I like to do is paint.</h1>
-            <div class="image">   
-                <img src="Painting1.jpeg">
-            </div> 
-        </p>
+        <div class="card" style="width: 18rem;">
+            <img src="Painting1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">Hobbies</h2>
+              <p class="card-text">One thing I like to do is paint.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <hr />
     </div>
 </body>
 
